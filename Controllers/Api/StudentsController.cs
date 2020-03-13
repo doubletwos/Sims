@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using System.Web.Http.Description;
-using AutoMapper;
+﻿using AutoMapper;
 using SchoolPortal.Dtos;
 using SchoolPortal.Models;
+using System;
+using System.Data;
+using System.Data.Entity;
+using System.Linq;
+using System.Web.Http;
+using System.Web.Http.Description;
 
 namespace SchoolPortal.Controllers.Api
 {
     public class StudentsController : ApiController
     {
-        private ApplicationDbContext   _context  ;
+        private ApplicationDbContext _context;
 
         public StudentsController()
         {
@@ -30,11 +26,12 @@ namespace SchoolPortal.Controllers.Api
             var studentDtos = _context.Students
                 .Include(g => g.Gender)
                 .Include(y => y.Year)
+                .Include(r => r.Religion)
+                .Include(t => t.Tribe)
                 .ToList()
                 .Select(Mapper.Map<Student, StudentDto>);
             return Ok(studentDtos);
         }
-
 
         // GET: api/Students/5
         //[ResponseType(typeof(Student))]
@@ -43,9 +40,9 @@ namespace SchoolPortal.Controllers.Api
             var student = _context.Students.SingleOrDefault(s => s.Id == id);
 
             if (student == null)
-            return NotFound();
+                return NotFound();
 
-            return Ok (Mapper.Map<Student, StudentDto>(student));
+            return Ok(Mapper.Map<Student, StudentDto>(student));
         }
 
         // PUT: api/Students/5
@@ -66,11 +63,7 @@ namespace SchoolPortal.Controllers.Api
             _context.SaveChanges();
 
             return Ok();
-
         }
-
-
-
 
         // POST: api/Students
         [HttpPost]
@@ -79,19 +72,16 @@ namespace SchoolPortal.Controllers.Api
         {
             if (!ModelState.IsValid)
                 return BadRequest();
-            
-             
+
             var student = Mapper.Map<StudentDto, Student>(studentDto);
 
             _context.Students.Add(student);
             _context.SaveChanges();
 
-
             studentDto.Id = student.Id;
 
             return Created(new Uri(Request.RequestUri + "/" + student.Id), studentDto);
         }
-
 
         [HttpDelete]
         // DELETE: api/Students/5
@@ -109,7 +99,6 @@ namespace SchoolPortal.Controllers.Api
             return Ok();
         }
 
-
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -118,7 +107,5 @@ namespace SchoolPortal.Controllers.Api
             }
             base.Dispose(disposing);
         }
-
-     
     }
 }

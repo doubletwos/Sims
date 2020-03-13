@@ -5,11 +5,10 @@ using System.Web;
 
 namespace SchoolPortal.Dtos
 {
-    public class YearDto
+    public class ReligionDto
     {
         public byte Id { get; set; }
 
-        public string YearName { get; set; }
-
+        public string ReligionName { get; set; }
     }
-}
+}   

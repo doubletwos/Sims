@@ -49,16 +49,20 @@ namespace SchoolPortal.Dtos
         //public virtual ICollection<File> Files { get; set; }
 
         public int ReligionId { get; set; }
-        //public virtual Religion Religion { get; set; }
+        public virtual ReligionDto Religion { get; set; }
 
         public int TribeId { get; set; }
-       // public virtual Tribe Tribe { get; set; }
+        public virtual TribeDto Tribe { get; set; }
+
+
 
         public int YearId { get; set; }
-       //public virtual Year Year { get; set; }
+        public virtual YearDto Year { get; set; }
+
+
 
         public int GenderId { get; set; }
-      //public Gender Gender { get; set; }
+        public GenderDto Gender { get; set; }
 
         public int? TeacherId { get; set; }
       //public virtual Teacher Teacher { get; set; }

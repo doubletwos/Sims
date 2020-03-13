@@ -11,11 +11,16 @@
 <table id="students" class="table table-bordered table-hover">
 	<thead>
 		<tr>
-			<th><b> Name</b></th>
+			<th><b> First Name</b></th>
 
+			<th><b>Surname</b></th>
+			<th><b>Religion</b></th>
+			<th><b>Tribe</b></th>
 			<th><b>Class</b></th>
 			<th><b>Gender</b></th>
-			<th><b>Select Action</b></th>
+
+			<th><b></b></th>
+			<th><b></b></th>
 		</tr>
 	</thead>
 
@@ -43,11 +48,29 @@
 						data: "lastname"
 						
 					},
+				    {
+						data: "religion.religionName"
+						
+					},
+					{
+						data: "tribe.tribeName"
+						
+					},
+				    {
+						data: "year.yearName"
+						
+					},
+					{
+						data: "gender.name"
+						
+					},
+
+
 
 					{
 						data: "id",
-						render: function (data) {
-							return "<a href='/students/edit/" + data + "'>" +"Edit"+ "</a>";
+						render: function (data, type, student) {
+							return "<a href='/student/edit/" + student.id + "'>" + student.firstName + "</a>";
 							
 						}
 					},
