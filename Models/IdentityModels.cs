@@ -20,7 +20,7 @@ namespace SchoolPortal.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet <Tribe> Tribes { get; set; }
+        public DbSet<Tribe> Tribes { get; set; }
 
         public DbSet<Religion> Religions { get; set; }
 

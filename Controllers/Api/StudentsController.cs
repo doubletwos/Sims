@@ -26,8 +26,8 @@ namespace SchoolPortal.Controllers.Api
             var studentDtos = _context.Students
                 .Include(g => g.Gender)
                 .Include(y => y.Year)
-                .Include(r => r.Religion)
-                .Include(t => t.Tribe)
+                //.Include(r => r.Religion)
+                //.Include(t => t.Tribe)
                 .ToList()
                 .Select(Mapper.Map<Student, StudentDto>);
             return Ok(studentDtos);

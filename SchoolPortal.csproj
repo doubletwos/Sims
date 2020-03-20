@@ -199,265 +199,53 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202002231733535_Initial.cs" />
-    <Compile Include="Migrations\202002231733535_Initial.Designer.cs">
-      <DependentUpon>202002231733535_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231830445_YearRels.cs" />
-    <Compile Include="Migrations\202002231830445_YearRels.Designer.cs">
-      <DependentUpon>202002231830445_YearRels.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231837598_TeacherRels.cs" />
-    <Compile Include="Migrations\202002231837598_TeacherRels.Designer.cs">
-      <DependentUpon>202002231837598_TeacherRels.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231842266_TestFix.cs" />
-    <Compile Include="Migrations\202002231842266_TestFix.Designer.cs">
-      <DependentUpon>202002231842266_TestFix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231847116_StudentsSubjects.cs" />
-    <Compile Include="Migrations\202002231847116_StudentsSubjects.Designer.cs">
-      <DependentUpon>202002231847116_StudentsSubjects.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231848288_Test777.cs" />
-    <Compile Include="Migrations\202002231848288_Test777.Designer.cs">
-      <DependentUpon>202002231848288_Test777.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231849401_Test888.cs" />
-    <Compile Include="Migrations\202002231849401_Test888.Designer.cs">
-      <DependentUpon>202002231849401_Test888.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231902397_YearTest.cs" />
-    <Compile Include="Migrations\202002231902397_YearTest.Designer.cs">
-      <DependentUpon>202002231902397_YearTest.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231904447_Test999.cs" />
-    <Compile Include="Migrations\202002231904447_Test999.Designer.cs">
-      <DependentUpon>202002231904447_Test999.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231912105_FinalRels.cs" />
-    <Compile Include="Migrations\202002231912105_FinalRels.Designer.cs">
-      <DependentUpon>202002231912105_FinalRels.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231912571_Generic.cs" />
-    <Compile Include="Migrations\202002231912571_Generic.Designer.cs">
-      <DependentUpon>202002231912571_Generic.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231917046_Generic1.cs" />
-    <Compile Include="Migrations\202002231917046_Generic1.Designer.cs">
-      <DependentUpon>202002231917046_Generic1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231919491_Generic3.cs" />
-    <Compile Include="Migrations\202002231919491_Generic3.Designer.cs">
-      <DependentUpon>202002231919491_Generic3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002231957581_GenderGender.cs" />
-    <Compile Include="Migrations\202002231957581_GenderGender.Designer.cs">
-      <DependentUpon>202002231957581_GenderGender.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232105288_Entity.cs" />
-    <Compile Include="Migrations\202002232105288_Entity.Designer.cs">
-      <DependentUpon>202002232105288_Entity.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232139546_dropdownissues.cs" />
-    <Compile Include="Migrations\202002232139546_dropdownissues.Designer.cs">
-      <DependentUpon>202002232139546_dropdownissues.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232146335_YY.cs" />
-    <Compile Include="Migrations\202002232146335_YY.Designer.cs">
-      <DependentUpon>202002232146335_YY.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232201578_YeartoTeacher.cs" />
-    <Compile Include="Migrations\202002232201578_YeartoTeacher.Designer.cs">
-      <DependentUpon>202002232201578_YeartoTeacher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232206429_TitletoTeacher.cs" />
-    <Compile Include="Migrations\202002232206429_TitletoTeacher.Designer.cs">
-      <DependentUpon>202002232206429_TitletoTeacher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232313545_teachergone.cs" />
-    <Compile Include="Migrations\202002232313545_teachergone.Designer.cs">
-      <DependentUpon>202002232313545_teachergone.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002232316325_CK1.cs" />
-    <Compile Include="Migrations\202002232316325_CK1.Designer.cs">
-      <DependentUpon>202002232316325_CK1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240517593_SubjectstoYears.cs" />
-    <Compile Include="Migrations\202002240517593_SubjectstoYears.Designer.cs">
-      <DependentUpon>202002240517593_SubjectstoYears.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240523231_YearId.cs" />
-    <Compile Include="Migrations\202002240523231_YearId.Designer.cs">
-      <DependentUpon>202002240523231_YearId.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240532408_SSsortout.cs" />
-    <Compile Include="Migrations\202002240532408_SSsortout.Designer.cs">
-      <DependentUpon>202002240532408_SSsortout.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240713149_TeachertoYear.cs" />
-    <Compile Include="Migrations\202002240713149_TeachertoYear.Designer.cs">
-      <DependentUpon>202002240713149_TeachertoYear.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240717004_Reverse.cs" />
-    <Compile Include="Migrations\202002240717004_Reverse.Designer.cs">
-      <DependentUpon>202002240717004_Reverse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240724170_1yeartoManyTeachers.cs" />
-    <Compile Include="Migrations\202002240724170_1yeartoManyTeachers.Designer.cs">
-      <DependentUpon>202002240724170_1yeartoManyTeachers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002240838396_resetall.cs" />
-    <Compile Include="Migrations\202002240838396_resetall.Designer.cs">
-      <DependentUpon>202002240838396_resetall.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002241738252_Ticket0045.cs" />
-    <Compile Include="Migrations\202002241738252_Ticket0045.Designer.cs">
-      <DependentUpon>202002241738252_Ticket0045.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002241745598_0045-1.cs" />
-    <Compile Include="Migrations\202002241745598_0045-1.Designer.cs">
-      <DependentUpon>202002241745598_0045-1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002241806470_0045-2.cs" />
-    <Compile Include="Migrations\202002241806470_0045-2.Designer.cs">
-      <DependentUpon>202002241806470_0045-2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002241832509_0045-3.cs" />
-    <Compile Include="Migrations\202002241832509_0045-3.Designer.cs">
-      <DependentUpon>202002241832509_0045-3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002251856462_0030and0031.cs" />
-    <Compile Include="Migrations\202002251856462_0030and0031.Designer.cs">
-      <DependentUpon>202002251856462_0030and0031.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002251907234_Changestodb.cs" />
-    <Compile Include="Migrations\202002251907234_Changestodb.Designer.cs">
-      <DependentUpon>202002251907234_Changestodb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002251930584_saddressadjuested.cs" />
-    <Compile Include="Migrations\202002251930584_saddressadjuested.Designer.cs">
-      <DependentUpon>202002251930584_saddressadjuested.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002251944367_FK1.cs" />
-    <Compile Include="Migrations\202002251944367_FK1.Designer.cs">
-      <DependentUpon>202002251944367_FK1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002251951584_religion.cs" />
-    <Compile Include="Migrations\202002251951584_religion.Designer.cs">
-      <DependentUpon>202002251951584_religion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002252023043_tribes.cs" />
-    <Compile Include="Migrations\202002252023043_tribes.Designer.cs">
-      <DependentUpon>202002252023043_tribes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002260814027_CD1.cs" />
-    <Compile Include="Migrations\202002260814027_CD1.Designer.cs">
-      <DependentUpon>202002260814027_CD1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002260830466_SS1V1.cs" />
-    <Compile Include="Migrations\202002260830466_SS1V1.Designer.cs">
-      <DependentUpon>202002260830466_SS1V1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002260929323_addyfix.cs" />
-    <Compile Include="Migrations\202002260929323_addyfix.Designer.cs">
-      <DependentUpon>202002260929323_addyfix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002261021559_studfix101.cs" />
-    <Compile Include="Migrations\202002261021559_studfix101.Designer.cs">
-      <DependentUpon>202002261021559_studfix101.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002261025456_Studaddyfix102.cs" />
-    <Compile Include="Migrations\202002261025456_Studaddyfix102.Designer.cs">
-      <DependentUpon>202002261025456_Studaddyfix102.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002261031508_Sqlfix.cs" />
-    <Compile Include="Migrations\202002261031508_Sqlfix.Designer.cs">
-      <DependentUpon>202002261031508_Sqlfix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002261829381_Addressfix1.cs" />
-    <Compile Include="Migrations\202002261829381_Addressfix1.Designer.cs">
-      <DependentUpon>202002261829381_Addressfix1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002271616518_TestDebug.cs" />
-    <Compile Include="Migrations\202002271616518_TestDebug.Designer.cs">
-      <DependentUpon>202002271616518_TestDebug.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002281606326_GboGbo1.cs" />
-    <Compile Include="Migrations\202002281606326_GboGbo1.Designer.cs">
-      <DependentUpon>202002281606326_GboGbo1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003041842221_Added1tomanyTeacherandStudents.cs" />
-    <Compile Include="Migrations\202003041842221_Added1tomanyTeacherandStudents.Designer.cs">
-      <DependentUpon>202003041842221_Added1tomanyTeacherandStudents.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003041857475_UpdatingRelationships.cs" />
-    <Compile Include="Migrations\202003041857475_UpdatingRelationships.Designer.cs">
-      <DependentUpon>202003041857475_UpdatingRelationships.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003041900515_TestUpdate.cs" />
-    <Compile Include="Migrations\202003041900515_TestUpdate.Designer.cs">
-      <DependentUpon>202003041900515_TestUpdate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003041952227_p1.cs" />
-    <Compile Include="Migrations\202003041952227_p1.Designer.cs">
-      <DependentUpon>202003041952227_p1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003041955289_ghost.cs" />
-    <Compile Include="Migrations\202003041955289_ghost.Designer.cs">
-      <DependentUpon>202003041955289_ghost.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003042023124_sid.cs" />
-    <Compile Include="Migrations\202003042023124_sid.Designer.cs">
-      <DependentUpon>202003042023124_sid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003051855458_Files.cs" />
-    <Compile Include="Migrations\202003051855458_Files.Designer.cs">
-      <DependentUpon>202003051855458_Files.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003060728524_fileissues.cs" />
-    <Compile Include="Migrations\202003060728524_fileissues.Designer.cs">
-      <DependentUpon>202003060728524_fileissues.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003061010307_HomeDP.cs" />
-    <Compile Include="Migrations\202003061010307_HomeDP.Designer.cs">
-      <DependentUpon>202003061010307_HomeDP.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003061246389_HomeschoolPic.cs" />
-    <Compile Include="Migrations\202003061246389_HomeschoolPic.Designer.cs">
-      <DependentUpon>202003061246389_HomeschoolPic.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003061316284_Images.cs" />
-    <Compile Include="Migrations\202003061316284_Images.Designer.cs">
-      <DependentUpon>202003061316284_Images.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003061322195_testdd.cs" />
-    <Compile Include="Migrations\202003061322195_testdd.Designer.cs">
-      <DependentUpon>202003061322195_testdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003061505094_fileid.cs" />
-    <Compile Include="Migrations\202003061505094_fileid.Designer.cs">
-      <DependentUpon>202003061505094_fileid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003070603177_appdb.cs" />
-    <Compile Include="Migrations\202003070603177_appdb.Designer.cs">
-      <DependentUpon>202003070603177_appdb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003081246255_relationshipfixer.cs" />
-    <Compile Include="Migrations\202003081246255_relationshipfixer.Designer.cs">
-      <DependentUpon>202003081246255_relationshipfixer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003081249253_stilfixing.cs" />
-    <Compile Include="Migrations\202003081249253_stilfixing.Designer.cs">
-      <DependentUpon>202003081249253_stilfixing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003081250293_lastry.cs" />
-    <Compile Include="Migrations\202003081250293_lastry.Designer.cs">
-      <DependentUpon>202003081250293_lastry.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003081251281_relsfixed123.cs" />
-    <Compile Include="Migrations\202003081251281_relsfixed123.Designer.cs">
-      <DependentUpon>202003081251281_relsfixed123.cs</DependentUpon>
+    <Compile Include="Migrations\202003201342493_Initial.cs" />
+    <Compile Include="Migrations\202003201342493_Initial.Designer.cs">
+      <DependentUpon>202003201342493_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201359171_Initial2.cs" />
+    <Compile Include="Migrations\202003201359171_Initial2.Designer.cs">
+      <DependentUpon>202003201359171_Initial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201433336_Initial3.cs" />
+    <Compile Include="Migrations\202003201433336_Initial3.Designer.cs">
+      <DependentUpon>202003201433336_Initial3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201437369_Tribe.cs" />
+    <Compile Include="Migrations\202003201437369_Tribe.Designer.cs">
+      <DependentUpon>202003201437369_Tribe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201445190_TribeGeneric.cs" />
+    <Compile Include="Migrations\202003201445190_TribeGeneric.Designer.cs">
+      <DependentUpon>202003201445190_TribeGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201501105_Religion.cs" />
+    <Compile Include="Migrations\202003201501105_Religion.Designer.cs">
+      <DependentUpon>202003201501105_Religion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201502228_ReligionGeneric.cs" />
+    <Compile Include="Migrations\202003201502228_ReligionGeneric.Designer.cs">
+      <DependentUpon>202003201502228_ReligionGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201509128_FixReligion.cs" />
+    <Compile Include="Migrations\202003201509128_FixReligion.Designer.cs">
+      <DependentUpon>202003201509128_FixReligion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201511239_Religion1.cs" />
+    <Compile Include="Migrations\202003201511239_Religion1.Designer.cs">
+      <DependentUpon>202003201511239_Religion1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201517348_Fix3.cs" />
+    <Compile Include="Migrations\202003201517348_Fix3.Designer.cs">
+      <DependentUpon>202003201517348_Fix3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201522535_RelTribe.cs" />
+    <Compile Include="Migrations\202003201522535_RelTribe.Designer.cs">
+      <DependentUpon>202003201522535_RelTribe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003201524493_Generic.cs" />
+    <Compile Include="Migrations\202003201524493_Generic.Designer.cs">
+      <DependentUpon>202003201524493_Generic.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -800,200 +588,41 @@
     <Folder Include="Views\File\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202002231733535_Initial.resx">
-      <DependentUpon>202002231733535_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201342493_Initial.resx">
+      <DependentUpon>202003201342493_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231830445_YearRels.resx">
-      <DependentUpon>202002231830445_YearRels.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201359171_Initial2.resx">
+      <DependentUpon>202003201359171_Initial2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231837598_TeacherRels.resx">
-      <DependentUpon>202002231837598_TeacherRels.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201433336_Initial3.resx">
+      <DependentUpon>202003201433336_Initial3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231842266_TestFix.resx">
-      <DependentUpon>202002231842266_TestFix.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201437369_Tribe.resx">
+      <DependentUpon>202003201437369_Tribe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231847116_StudentsSubjects.resx">
-      <DependentUpon>202002231847116_StudentsSubjects.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201445190_TribeGeneric.resx">
+      <DependentUpon>202003201445190_TribeGeneric.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231848288_Test777.resx">
-      <DependentUpon>202002231848288_Test777.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201501105_Religion.resx">
+      <DependentUpon>202003201501105_Religion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231849401_Test888.resx">
-      <DependentUpon>202002231849401_Test888.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201502228_ReligionGeneric.resx">
+      <DependentUpon>202003201502228_ReligionGeneric.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231902397_YearTest.resx">
-      <DependentUpon>202002231902397_YearTest.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201509128_FixReligion.resx">
+      <DependentUpon>202003201509128_FixReligion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231904447_Test999.resx">
-      <DependentUpon>202002231904447_Test999.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201511239_Religion1.resx">
+      <DependentUpon>202003201511239_Religion1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231912105_FinalRels.resx">
-      <DependentUpon>202002231912105_FinalRels.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201517348_Fix3.resx">
+      <DependentUpon>202003201517348_Fix3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231912571_Generic.resx">
-      <DependentUpon>202002231912571_Generic.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201522535_RelTribe.resx">
+      <DependentUpon>202003201522535_RelTribe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231917046_Generic1.resx">
-      <DependentUpon>202002231917046_Generic1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231919491_Generic3.resx">
-      <DependentUpon>202002231919491_Generic3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002231957581_GenderGender.resx">
-      <DependentUpon>202002231957581_GenderGender.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232105288_Entity.resx">
-      <DependentUpon>202002232105288_Entity.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232139546_dropdownissues.resx">
-      <DependentUpon>202002232139546_dropdownissues.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232146335_YY.resx">
-      <DependentUpon>202002232146335_YY.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232201578_YeartoTeacher.resx">
-      <DependentUpon>202002232201578_YeartoTeacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232206429_TitletoTeacher.resx">
-      <DependentUpon>202002232206429_TitletoTeacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232313545_teachergone.resx">
-      <DependentUpon>202002232313545_teachergone.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002232316325_CK1.resx">
-      <DependentUpon>202002232316325_CK1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240517593_SubjectstoYears.resx">
-      <DependentUpon>202002240517593_SubjectstoYears.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240523231_YearId.resx">
-      <DependentUpon>202002240523231_YearId.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240532408_SSsortout.resx">
-      <DependentUpon>202002240532408_SSsortout.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240713149_TeachertoYear.resx">
-      <DependentUpon>202002240713149_TeachertoYear.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240717004_Reverse.resx">
-      <DependentUpon>202002240717004_Reverse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240724170_1yeartoManyTeachers.resx">
-      <DependentUpon>202002240724170_1yeartoManyTeachers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002240838396_resetall.resx">
-      <DependentUpon>202002240838396_resetall.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002241738252_Ticket0045.resx">
-      <DependentUpon>202002241738252_Ticket0045.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002241745598_0045-1.resx">
-      <DependentUpon>202002241745598_0045-1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002241806470_0045-2.resx">
-      <DependentUpon>202002241806470_0045-2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002241832509_0045-3.resx">
-      <DependentUpon>202002241832509_0045-3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002251856462_0030and0031.resx">
-      <DependentUpon>202002251856462_0030and0031.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002251907234_Changestodb.resx">
-      <DependentUpon>202002251907234_Changestodb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002251930584_saddressadjuested.resx">
-      <DependentUpon>202002251930584_saddressadjuested.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002251944367_FK1.resx">
-      <DependentUpon>202002251944367_FK1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002251951584_religion.resx">
-      <DependentUpon>202002251951584_religion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002252023043_tribes.resx">
-      <DependentUpon>202002252023043_tribes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002260814027_CD1.resx">
-      <DependentUpon>202002260814027_CD1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002260830466_SS1V1.resx">
-      <DependentUpon>202002260830466_SS1V1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002260929323_addyfix.resx">
-      <DependentUpon>202002260929323_addyfix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002261021559_studfix101.resx">
-      <DependentUpon>202002261021559_studfix101.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002261025456_Studaddyfix102.resx">
-      <DependentUpon>202002261025456_Studaddyfix102.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002261031508_Sqlfix.resx">
-      <DependentUpon>202002261031508_Sqlfix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002261829381_Addressfix1.resx">
-      <DependentUpon>202002261829381_Addressfix1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002271616518_TestDebug.resx">
-      <DependentUpon>202002271616518_TestDebug.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002281606326_GboGbo1.resx">
-      <DependentUpon>202002281606326_GboGbo1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003041842221_Added1tomanyTeacherandStudents.resx">
-      <DependentUpon>202003041842221_Added1tomanyTeacherandStudents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003041857475_UpdatingRelationships.resx">
-      <DependentUpon>202003041857475_UpdatingRelationships.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003041900515_TestUpdate.resx">
-      <DependentUpon>202003041900515_TestUpdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003041952227_p1.resx">
-      <DependentUpon>202003041952227_p1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003041955289_ghost.resx">
-      <DependentUpon>202003041955289_ghost.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003042023124_sid.resx">
-      <DependentUpon>202003042023124_sid.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003051855458_Files.resx">
-      <DependentUpon>202003051855458_Files.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003060728524_fileissues.resx">
-      <DependentUpon>202003060728524_fileissues.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003061010307_HomeDP.resx">
-      <DependentUpon>202003061010307_HomeDP.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003061246389_HomeschoolPic.resx">
-      <DependentUpon>202003061246389_HomeschoolPic.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003061316284_Images.resx">
-      <DependentUpon>202003061316284_Images.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003061322195_testdd.resx">
-      <DependentUpon>202003061322195_testdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003061505094_fileid.resx">
-      <DependentUpon>202003061505094_fileid.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003070603177_appdb.resx">
-      <DependentUpon>202003070603177_appdb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003081246255_relationshipfixer.resx">
-      <DependentUpon>202003081246255_relationshipfixer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003081249253_stilfixing.resx">
-      <DependentUpon>202003081249253_stilfixing.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003081250293_lastry.resx">
-      <DependentUpon>202003081250293_lastry.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003081251281_relsfixed123.resx">
-      <DependentUpon>202003081251281_relsfixed123.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003201524493_Generic.resx">
+      <DependentUpon>202003201524493_Generic.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
