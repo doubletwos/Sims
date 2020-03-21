@@ -10,18 +10,20 @@
 
 <table id="students" class="table table-bordered table-hover">
 	<thead>
-		<tr>
-			<th><b> First Name</b></th>
+        <tr>
+            <th><b> First Name</b></th>
 
-			<th><b>Surname</b></th>
-			<th><b>Religion</b></th>
-			<th><b>Tribe</b></th>
-			<th><b>Class</b></th>
-			<th><b>Gender</b></th>
+            <th><b>Surname</b></th>
+            <th><b>Religion</b></th>
+            <th><b>Tribe</b></th>
+            <th><b>Class</b></th>
+            <th><b>Gender</b></th>
 
-			<th><b></b></th>
-			<th><b></b></th>
-		</tr>
+            <th><b></b></th>
+            <th><b></b></th>
+            <th><b></b></th>
+            <th><b></b></th>
+        </tr>
 	</thead>
 
 	<tbody>
@@ -33,55 +35,82 @@
 	{
 	<script>
 		$(document).ready(function () {
-			var table = $("#students").DataTable({
+            var table = $("#students").DataTable({
 				ajax: {
 					url: "api/students",
-					dataSrc:""
+                    dataSrc: ""
 				},
 				columns: [
 					{
-						data: "firstName"
-						
+                        data: "firstName",
+                        orderable: false
+                       
+									
 					},
 
 					{
-						data: "lastname"
+                        data: "lastname",
+                        orderable: false
+                       
 						
 					},
 				    {
-						data: "religion.religionName"
+                        data: "religion.religionName",
+                        orderable: false
 						
 					},
 					{
-						data: "tribe.tribeName"
+						data: "tribe.tribeName",
+						orderable: false
 						
 					},
 				    {
-						data: "year.yearName"
+                        data: "year.yearName",
+                        orderable: false
 						
 					},
 					{
-						data: "gender.name"
+                        data: "gender.name",
+                        orderable: false
 						
 					},
 
 
 
 					{
+						
 						data: "id",
+                        orderable: false,
+
 						render: function (data, type, student) {
-							return "<a href='/student/edit/" + student.id + "'>" + student.firstName + "</a>";
+                            return "<a href='/student/edit/" + student.id + "'>" + "Edit"  +"</a>";;
 							
 						}
 					},
 
+
+                    {
+						data: "id",
+                        orderable: false,
+                        render: function (data, type, student) {
+                            return "<a href='/student/details/" + student.id + "'>" + "Details" + "</a>";
+
+                        }
+                    },
+
 				
 					{
 						data: "id",
+                        orderable: false,
 						render: function (data) {
 							return "<button class = 'btn-link js-delete' data-student-id=" + data + ">Delete</button>";
 						}
 					}
+
+				
+
+                  
+
 				]
 
 			});
@@ -104,6 +133,8 @@
 				
 
 			});
+
+
 		});
 	</script>
 

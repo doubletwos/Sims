@@ -199,53 +199,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202003201342493_Initial.cs" />
-    <Compile Include="Migrations\202003201342493_Initial.Designer.cs">
-      <DependentUpon>202003201342493_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\202003210459168_init.cs" />
+    <Compile Include="Migrations\202003210459168_init.Designer.cs">
+      <DependentUpon>202003210459168_init.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202003201359171_Initial2.cs" />
-    <Compile Include="Migrations\202003201359171_Initial2.Designer.cs">
-      <DependentUpon>202003201359171_Initial2.cs</DependentUpon>
+    <Compile Include="Migrations\202003210509039_Generic.cs" />
+    <Compile Include="Migrations\202003210509039_Generic.Designer.cs">
+      <DependentUpon>202003210509039_Generic.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202003201433336_Initial3.cs" />
-    <Compile Include="Migrations\202003201433336_Initial3.Designer.cs">
-      <DependentUpon>202003201433336_Initial3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201437369_Tribe.cs" />
-    <Compile Include="Migrations\202003201437369_Tribe.Designer.cs">
-      <DependentUpon>202003201437369_Tribe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201445190_TribeGeneric.cs" />
-    <Compile Include="Migrations\202003201445190_TribeGeneric.Designer.cs">
-      <DependentUpon>202003201445190_TribeGeneric.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201501105_Religion.cs" />
-    <Compile Include="Migrations\202003201501105_Religion.Designer.cs">
-      <DependentUpon>202003201501105_Religion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201502228_ReligionGeneric.cs" />
-    <Compile Include="Migrations\202003201502228_ReligionGeneric.Designer.cs">
-      <DependentUpon>202003201502228_ReligionGeneric.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201509128_FixReligion.cs" />
-    <Compile Include="Migrations\202003201509128_FixReligion.Designer.cs">
-      <DependentUpon>202003201509128_FixReligion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201511239_Religion1.cs" />
-    <Compile Include="Migrations\202003201511239_Religion1.Designer.cs">
-      <DependentUpon>202003201511239_Religion1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201517348_Fix3.cs" />
-    <Compile Include="Migrations\202003201517348_Fix3.Designer.cs">
-      <DependentUpon>202003201517348_Fix3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201522535_RelTribe.cs" />
-    <Compile Include="Migrations\202003201522535_RelTribe.Designer.cs">
-      <DependentUpon>202003201522535_RelTribe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003201524493_Generic.cs" />
-    <Compile Include="Migrations\202003201524493_Generic.Designer.cs">
-      <DependentUpon>202003201524493_Generic.cs</DependentUpon>
+    <Compile Include="Migrations\202003211819140_fixconstraint.cs" />
+    <Compile Include="Migrations\202003211819140_fixconstraint.Designer.cs">
+      <DependentUpon>202003211819140_fixconstraint.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -588,41 +552,14 @@
     <Folder Include="Views\File\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202003201342493_Initial.resx">
-      <DependentUpon>202003201342493_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003210459168_init.resx">
+      <DependentUpon>202003210459168_init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201359171_Initial2.resx">
-      <DependentUpon>202003201359171_Initial2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003210509039_Generic.resx">
+      <DependentUpon>202003210509039_Generic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201433336_Initial3.resx">
-      <DependentUpon>202003201433336_Initial3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201437369_Tribe.resx">
-      <DependentUpon>202003201437369_Tribe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201445190_TribeGeneric.resx">
-      <DependentUpon>202003201445190_TribeGeneric.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201501105_Religion.resx">
-      <DependentUpon>202003201501105_Religion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201502228_ReligionGeneric.resx">
-      <DependentUpon>202003201502228_ReligionGeneric.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201509128_FixReligion.resx">
-      <DependentUpon>202003201509128_FixReligion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201511239_Religion1.resx">
-      <DependentUpon>202003201511239_Religion1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201517348_Fix3.resx">
-      <DependentUpon>202003201517348_Fix3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201522535_RelTribe.resx">
-      <DependentUpon>202003201522535_RelTribe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003201524493_Generic.resx">
-      <DependentUpon>202003201524493_Generic.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003211819140_fixconstraint.resx">
+      <DependentUpon>202003211819140_fixconstraint.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

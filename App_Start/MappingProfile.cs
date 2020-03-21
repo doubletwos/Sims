@@ -16,8 +16,8 @@ namespace SchoolPortal.App_Start
             Mapper.CreateMap<StudentDto, Student>();
             Mapper.CreateMap<Gender, GenderDto>();
             Mapper.CreateMap<Year, YearDto>();
-            //Mapper.CreateMap<Religion, ReligionDto>();
-            //Mapper.CreateMap<Tribe, TribeDto>();
+            Mapper.CreateMap<Religion, ReligionDto>();
+            Mapper.CreateMap<Tribe, TribeDto>();
 
 
         }

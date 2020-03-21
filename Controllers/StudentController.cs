@@ -42,8 +42,8 @@ namespace SchoolPortal.Controllers
 
             Include(y => y.Year).
             Include(g => g.Gender).
-            //Include(r => r.Religion).
-            //Include(t => t.Tribe).
+            Include(r => r.Religion).
+            Include(t => t.Tribe).
             Include(s => s.StudentsSubjects).
             Include(f => f.Files).
             SingleOrDefault(c => c.Id == id);
@@ -84,8 +84,8 @@ namespace SchoolPortal.Controllers
                     Student = student,
                     Genders = _context.Genders.ToList(),
                     Years = _context.Years.ToList(),
-                    //Tribes = _context.Tribes.ToList(),
-                    //Religions = _context.Religions.ToList()
+                    Tribes = _context.Tribes.ToList(),
+                    Religions = _context.Religions.ToList()
                 };
                 return View("StudentForm", viewModel);     
             }
@@ -125,8 +125,8 @@ namespace SchoolPortal.Controllers
             Student = student,
             Genders = _context.Genders.ToList(),
             Years = _context.Years.ToList(),
-            //Religions = _context.Religions.ToList(),
-            //Tribes = _context.Tribes.ToList(),
+            Religions = _context.Religions.ToList(),
+            Tribes = _context.Tribes.ToList(),
 
         };
             return View("StudentEditForm", viewmodel);
@@ -142,8 +142,8 @@ namespace SchoolPortal.Controllers
                 studentInDb.FirstName = student.FirstName;
                 studentInDb.MiddleName = student.MiddleName;
                 studentInDb.Lastname = student.Lastname;
-                //studentInDb.ReligionId = student.ReligionId;
-                //studentInDb.TribeId = student.TribeId;
+                studentInDb.ReligionId = student.ReligionId;
+                studentInDb.TribeId = student.TribeId;
                 studentInDb.EnrolmentDate = student.EnrolmentDate;
                 studentInDb.GenderId = student.GenderId;
                 studentInDb.YearId = student.YearId;
