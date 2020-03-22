@@ -22,6 +22,7 @@ namespace SchoolPortal.Controllers
         public ActionResult Index()
         {
             var years = db.Years;
+
             return View(years.ToList());
         }
 

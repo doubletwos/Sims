@@ -18,8 +18,12 @@ namespace SchoolPortal.Controllers
         //// GET: Teachers
         public ActionResult Index()
         {
-            var teachers = db.Teachers.Include(y => y.Year).Include(t => t.Title);
-            return View(teachers.ToList());
+            var teachers = db.Teachers
+                .Include(y => y.Year)
+                .Include(t => t.Title)
+                .Include(s => s.Students)
+                .ToList();
+                return View(teachers);
         }
 
         // GET: Teachers/Details/5

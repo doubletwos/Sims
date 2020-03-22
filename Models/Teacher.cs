@@ -29,7 +29,38 @@ namespace SchoolPortal.Models
         [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
 
+
+        [Required(ErrorMessage = "Please Enter Teacher's Date Of Birth")]
+        [Display(Name = "Date Of Birth")]
+        [DataType(DataType.DateTime)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime? DateOfBirth { get; set; }
+
+        [Required(ErrorMessage = "Please Enter Teacher's Employment Start Date")]
+        [Display(Name = "Employment Start Date")]
+        public DateTime EmploymentStartDate { get; set; }
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+
+        [Required]
+        [Display(Name = "House Name or House Number")]
+        public string HouseNumberOrName { get; set; }
+
+        [Required]
+        [Display(Name = "First Line Of Address")]
+        public string FirstLineofAdd { get; set; }
+
+        [Required]
+        [Display(Name = "Second Line Of Address")]
+        public string SecondLineofAdd { get; set; }
+
+        [Required]
+        [Display(Name = "Area")]
+        public string Area { get; set; }
+
+
         public virtual ICollection<Student> Students { get; set; }
+
+
 
 
         //relationship Navigation Properties for viewmodels

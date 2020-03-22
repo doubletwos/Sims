@@ -5,11 +5,14 @@
 }
 
 <h2>Register New Teacher</h2>
-<hr/>
+<hr />
 
 
 @using (Html.BeginForm())
 {
+
+<div class="row">
+
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
@@ -19,52 +22,136 @@
 
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-        <div class="form-group">
-            @Html.LabelFor(m => m.Teacher.TitleId)
-            @Html.DropDownListFor(m => m.Teacher.TitleId, new SelectList(Model.Titles, "TitleId", "TitleName"), "", new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.Teacher.TitleId)
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(m => m.Teacher.FirstName)
-            @Html.TextBoxFor(m => m.Teacher.FirstName, new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.Teacher.FirstName)
-        </div>
+        <div class="col-md-6">
 
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.Teacher.LastName)
-            @Html.TextBoxFor(m => m.Teacher.LastName, new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.Teacher.LastName)
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.Teacher.EmailAddress)
-            @Html.TextBoxFor(m => m.Teacher.EmailAddress, new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.Teacher.EmailAddress)
-        </div>
-
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.Teacher.YearId)
-            @Html.DropDownListFor(m => m.Teacher.YearId, new SelectList(Model.Years, "YearId", "YearName"), "", new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.Teacher.YearId)
-        </div>
-
-
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Register" class="btn btn-default" />
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.TitleId)
+                @Html.DropDownListFor(m => m.Teacher.TitleId, new SelectList(Model.Titles, "TitleId", "TitleName"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Teacher.TitleId)
             </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.FirstName)
+                @Html.TextBoxFor(m => m.Teacher.FirstName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Teacher.FirstName)
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.LastName)
+                @Html.TextBoxFor(m => m.Teacher.LastName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Teacher.LastName)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.EmailAddress)
+                @Html.TextBoxFor(m => m.Teacher.EmailAddress, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Teacher.EmailAddress)
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.DateOfBirth)
+                @Html.TextBoxFor(m => m.Teacher.DateOfBirth, "{0:d MMM yyyy}", new { @class = "form-control datepicker", placeholder = "dd/mm/yyyy" })
+                @Html.ValidationMessageFor(m => m.Teacher.DateOfBirth)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.EmploymentStartDate)
+                @Html.TextBoxFor(m => m.Teacher.EmploymentStartDate, "{0:d MMM yyyy}", new { @class = "form-control datepicker", placeholder = "dd/mm/yyyy" })
+                @Html.ValidationMessageFor(m => m.Teacher.EmploymentStartDate)
+            </div>
+
         </div>
-    </div>
+
+        <div class="col-md-6">
+
+
+         
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.HouseNumberOrName)
+                @Html.TextBoxFor(m => m.Teacher.HouseNumberOrName, new { @class = "form-control", })
+                @Html.ValidationMessageFor(m => m.Teacher.HouseNumberOrName)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.FirstLineofAdd)
+                @Html.TextBoxFor(m => m.Teacher.FirstLineofAdd, new { @class = "form-control", })
+                @Html.ValidationMessageFor(m => m.Teacher.FirstLineofAdd)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.SecondLineofAdd)
+                @Html.TextBoxFor(m => m.Teacher.SecondLineofAdd, new { @class = "form-control", })
+                @Html.ValidationMessageFor(m => m.Teacher.SecondLineofAdd)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.Area)
+                @Html.TextBoxFor(m => m.Teacher.Area, new { @class = "form-control", })
+                @Html.ValidationMessageFor(m => m.Teacher.Area)
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Teacher.YearId)
+                @Html.DropDownListFor(m => m.Teacher.YearId, new SelectList(Model.Years, "YearId", "YearName"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Teacher.YearId)
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Register" class="btn btn-default" />
+                </div>
+            </div>
+     </div>
+    
+  
+
+ </div>
+
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+
+        <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+        @section Scripts {
+
+
+
+            <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+            <script>
+
+                $(function () {
+
+                    $(".datepicker").datepicker({
+
+                        dateFormat: "dd-mm-yy",
+                        changeMonth: true,
+                        changeYear: true,
+                        yearRange: "-70:+0",
+                    });
+
+                });
+            </script>
+
+            @Scripts.Render("~/bundles/jqueryval")
+
+
+        }

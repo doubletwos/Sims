@@ -211,6 +211,10 @@
     <Compile Include="Migrations\202003211819140_fixconstraint.Designer.cs">
       <DependentUpon>202003211819140_fixconstraint.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003220720407_TeacherUpdate.cs" />
+    <Compile Include="Migrations\202003220720407_TeacherUpdate.Designer.cs">
+      <DependentUpon>202003220720407_TeacherUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\File.cs" />
@@ -560,6 +564,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003211819140_fixconstraint.resx">
       <DependentUpon>202003211819140_fixconstraint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003220720407_TeacherUpdate.resx">
+      <DependentUpon>202003220720407_TeacherUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
